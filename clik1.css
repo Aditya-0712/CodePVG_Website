@@ -9,6 +9,9 @@
     border-radius:20px;
     color:white;
     margin:0px 0px 0px 0px;
+    display:inline-block; 
+    position:relative; 
+    bottom:12px;
 }
 
 .clik1:hover, .clik:active

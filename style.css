@@ -1,0 +1,103 @@
+body
+{
+    background-image:url(bg.jpg); 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    background-size: cover; 
+    margin:0px 0px 0px 0px; 
+    width:1260px; 
+    height:720px; 
+    backdrop-filter: blur(5px);
+}
+
+body div:nth-child(1)
+{
+    width:100px; 
+    height:50px;
+}
+
+body div:nth-child(2)
+{
+    display:inline-block; 
+    width:65px; 
+    height:50px;
+    background-color:transparent;
+}
+
+#img1
+{
+    width:187px; 
+    height:45px;
+}
+
+#div3
+{
+    display:inline-block; 
+    width:20px; 
+    height:50px;
+    background-color:transparent;
+}
+
+#img2
+{
+    width:40px; 
+    height:40px; 
+    display:inline-block; 
+    position:relative; 
+    bottom:3px;
+}
+
+#div4
+{
+    display:inline-block; 
+    height:50px; 
+    width:320px; 
+    background-color:transparent;
+}
+
+.text
+{
+    display:inline-block; 
+    margin:0px 0px 0px 0px; 
+    font-family:CSans;
+    font-size:23px;
+}
+
+#div5
+{
+    display:inline-block; 
+    height:50px; 
+    width:40px; 
+    background-color:transparent;
+}
+
+#div6
+{
+    display:inline-block; 
+    height:50px; 
+    width:40px; 
+    background-color:transparent;
+}
+
+#div7
+{
+    display:inline-block; 
+    height:50px; 
+    width:20px; 
+    background-color:transparent;
+}
+
+#homeb
+{
+    width:50px; 
+    height:50px; 
+    display:inline-block;
+}
+
+#img3
+{
+    width:40px; 
+    height:40px; 
+    position:relative; 
+    bottom:8px;
+}
