@@ -1,0 +1,32 @@
+.clik1
+{
+    display:inline-block;
+    position:relative; 
+    bottom:12px;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding:5px 5px 5px 5px;
+    border-radius:20px;
+    color:white;
+    margin:0px 0px 0px 0px;
+}
+
+.clik1:hover, .clik:active
+{
+    animation: suii;
+    animation-duration: 2s;
+    animation-iteration-count: 100;
+}
+
+@keyframes suii 
+{
+    0% {border: 1px solid rgba(0, 0, 0, 0.3);}
+    50% {border: 1px solid rgba(255, 255, 255, 0.301);}
+    100% {border: 1px solid rgba(0, 0, 0, 0.3);}
+    0% {background-color: white;}
+    50% {background-color: black;}
+    100% {background-color: white;}
+    0% {color: black;}
+    50% {color: white;}
+    100% {color: black;}
+}

@@ -1,0 +1,34 @@
+.button
+{
+    display:grid;
+    position:relative;
+    width:150px;
+    height:50px;
+    place-items: center;
+}
+
+.button span:nth-child(1)
+{
+    border:1px solid white;
+    border-radius:20px;
+    width:100%;
+    height:100%;
+    background-color: black;
+}
+
+.button span:nth-child(1):hover
+{
+    animation: cham;
+    animation-duration: 2s;
+    animation-iteration-count: 100;
+}
+
+@keyframes cham
+{
+    0% {background-color: black;}
+    50% {background-color: white;}
+    100% {background-color: black;}
+    0% {border: 1px solid white;}
+    50% {border: 1px solid black;}
+    100% {border: 1px solid white;}
+}   
