@@ -9,9 +9,6 @@
     border-radius:20px;
     color:white;
     margin:0px 0px 0px 0px;
-    display:inline-block; 
-    position:relative; 
-    bottom:12px;
 }
 
 .clik1:hover, .clik:active
@@ -32,4 +29,14 @@
     0% {color: black;}
     50% {color: white;}
     100% {color: black;}
+}
+
+@media screen and (max-width: 800px)
+{
+    .clik1
+    {
+        display:block;
+        left:130px;
+        top:30px;
+    }
 }
