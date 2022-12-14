@@ -5,7 +5,7 @@ body
     background-attachment: fixed; 
     background-size: cover; 
     margin:0px 0px 0px 0px; 
-    width:1260px; 
+    width:100%; 
     height:720px; 
     backdrop-filter: blur(5px);
 }
@@ -102,17 +102,88 @@ body div:nth-child(2)
     bottom:8px;
 }
 
+#mob1
+{
+    display:none;
+}
+
+#mob2
+{
+    display:none;
+}
+
+#mob3
+{
+    display:none;
+}
+
+#mob4
+{
+    display:none;
+}
+
 @media screen and (max-width: 800px) 
 {
     body
     {
-        width:390px; 
-        height:844px;
+        width:100%;
+        height:1000px;
     }
 
-    #img3
+    #div4
     {
-        left:160px;
-        top:70px;
+        height:100px;
+        width:340px;
+    }
+
+    #mob1
+    {
+        display:inline-block;
+        width:120px;
+        height:50px;
+    }
+
+    .text
+    {
+        font-size:35px;
+    }
+
+    #mob2
+    {
+        display:inline-block;
+        height:50px;
+        width:100px;
+    }
+
+    #div5
+    {
+        width:100px;
+        height:100px;
+    }
+
+    #mob3
+    {
+        display:inline-block;
+        width:70px;
+        height:100px;
+    }
+
+    #div6
+    {
+        width:100px;
+        height:100px;
+    }
+
+    #div7
+    {
+        width:70px;
+        height:100px;
+    }
+
+    #mob4
+    {
+        display:inline-block;
+        width:200px;
+        height:100px;
     }
 }

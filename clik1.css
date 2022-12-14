@@ -30,13 +30,3 @@
     50% {color: white;}
     100% {color: black;}
 }
-
-@media screen and (max-width: 800px)
-{
-    .clik1
-    {
-        display:block;
-        left:130px;
-        top:30px;
-    }
-}
