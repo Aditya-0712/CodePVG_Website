@@ -133,13 +133,13 @@ body div:nth-child(2)
     #div4
     {
         height:100px;
-        width:340px;
+        width:83%;
     }
 
     #mob1
     {
         display:inline-block;
-        width:120px;
+        width:29.126%;
         height:50px;
     }
 
@@ -152,38 +152,38 @@ body div:nth-child(2)
     {
         display:inline-block;
         height:50px;
-        width:100px;
+        width:21.271%;
     }
 
     #div5
     {
-        width:100px;
+        width:22.271%;
         height:100px;
     }
 
-    #mob3
+    #mob30
     {
         display:inline-block;
-        width:70px;
+        width:1.990%;
         height:100px;
     }
 
     #div6
     {
-        width:100px;
+        width:24.271%;
         height:100px;
     }
 
     #div7
     {
-        width:70px;
+        width:10.990%;
         height:100px;
     }
 
     #mob4
     {
         display:inline-block;
-        width:200px;
+        width:48.543%;
         height:100px;
     }
 }
